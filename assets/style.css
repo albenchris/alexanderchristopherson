@@ -1,3 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: rgb(210, 202, 219);
+    --secondary-color: navy;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--primary-color);
+}
+
+/* header/navigation styles start */
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: var(--secondary-color);
+    background-size: cover;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+header h1,
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: auto 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+/* header/navigation styles end */
+
+/* hero styles start */
+/* hero styles end */
+
+/* footer styles start */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: var(--secondary-color);
+    color: var(--primary-color);
+}
+/* footer styles end */
+
+/* "About Me" styles start */
+/* "About Me" styles end */
+
+/* "My Work" styles start */
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -8,9 +80,8 @@
 .repo {
     display: flex;
     justify-content: center;
-    border: 3px solid rgba(25, 180, 225, 0.8);
+    border: 3px solid var(--secondary-color);
     margin: 20px;
-    background: orange;
     background-size: cover;
     min-height: 250px;
     width: auto;
@@ -20,6 +91,10 @@
     background-image: url("../assets/images/HoriseonMarketingScreenshot.png");
     grid-column: span 2;
     grid-row: span 2;    
+}
+
+.horiseon span {
+    font-style: italic;
 }
 
 .run-buddy {
@@ -41,3 +116,9 @@
 .box6 {
     background-image: url("https://picsum.photos/id/145/800");
 }
+/* placeholder images provided by Lorem Picsum */
+/* "My Work" styles end */
+
+/* "Contact Me" styles start */
+/* "Contact Me" styles end */
+
