@@ -7,6 +7,7 @@
 :root {
     --primary-color: rgb(210, 202, 219);
     --secondary-color: navy;
+    --tertiary-color: maroon;
 }
 
 body {
@@ -132,26 +133,35 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 5px;
+    width: 80%;
+    margin: 0 auto;
 }
 
 .repo {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    border: 3px solid var(--secondary-color);
     margin: 20px;
     background-size: cover;
-    min-height: 250px;
+    min-height: 150px;
     width: auto;
+    box-shadow: 0 0 10px black;
+}
+
+.repo a {
+    padding: 7px 28px 7px 28px;
+    border: 3px solid var(--tertiary-color);
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--tertiary-color);
+    background: var(--primary-color);
+    margin: auto 0 13px 0;
 }
 
 .horiseon {
     background-image: url("../assets/images/HoriseonMarketingScreenshot.png");
     grid-column: span 2;
     grid-row: span 2;    
-}
-
-.horiseon span {
-    font-style: italic;
 }
 
 .run-buddy {
@@ -180,3 +190,6 @@ footer {
 /* "Contact Me" styles end */
 
 /* UTILITY STYLES START */
+.italic {
+    font-style: italic;
+}
