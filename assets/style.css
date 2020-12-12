@@ -27,6 +27,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    z-index: 9999;
 }
 
 header h1 {
@@ -145,17 +146,29 @@ footer {
     background-size: cover;
     min-height: 150px;
     width: auto;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 7px black;
 }
 
 .repo a {
     padding: 7px 28px 7px 28px;
     border: 3px solid var(--tertiary-color);
-    text-decoration: none;
     font-weight: bold;
+    text-decoration: none;
     color: var(--tertiary-color);
     background: var(--primary-color);
     margin: auto 0 13px 0;
+    opacity: 0.8;
+}
+
+.repo:hover {
+    box-shadow: 0 0 13px black;
+}
+
+.repo a:hover {
+    color: var(--primary-color);
+    background-color: var(--tertiary-color);
+    border-color: var(--secondary-color);
+    opacity: 1;
 }
 
 .horiseon {
@@ -218,4 +231,12 @@ footer {
 /* UTILITY STYLES START */
 .italic {
     font-style: italic;
+}
+
+@media screen and (max-width: 720px) {
+
+}
+
+@media screen and (max-width: 540px) {
+
 }
