@@ -5,10 +5,10 @@
 }
 
 :root {
-    --primary-color: rgb(226, 226, 217);
-    --secondary-color: rgb(0, 0, 48);
-    --tertiary-color: rgb(1, 150, 130);
-    --quaternary-color: rgb(87, 0, 0);
+    --primary-color: rgb(212, 229, 244);
+    --secondary-color: rgb(2, 8, 34);
+    --tertiary-color: rgb(106, 177, 192);
+    --quaternary-color: rgb(130, 11, 11);
 }
 
 body {
@@ -24,7 +24,7 @@ header {
     background: var(--secondary-color);
     background-size: cover;
     padding: 20px;
-    border-bottom: 3px solid var(--primary-color);
+    border-bottom: 3px solid var(--tertiary-color);
     position: -webkit-sticky;
     position: sticky;
     top: 0;
@@ -91,10 +91,10 @@ footer {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    border-top: 3px solid var(--tertiary-color);
+    border-top: 3px solid var(--quaternary-color);
     padding: 20px;
     background: var(--secondary-color);
-    color: var(--primary-color);
+    color: var(--tertiary-color);
 }
 /* footer styles end */
 
@@ -164,7 +164,7 @@ footer {
 
 .repo:hover {
     box-shadow: 0 0 13px black;
-    opacity: 0.9;
+    opacity: 0.8;
     transition: 0.3s;
 }
 
