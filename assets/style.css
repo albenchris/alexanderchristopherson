@@ -66,7 +66,7 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("https://picsum.photos/id/1042/600");
+    background-image: url("https://picsum.photos/id/1042/600"); /* placeholder images provided by Lorem Picsum */
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -146,6 +146,7 @@ footer {
     justify-content: center;
     margin: 20px;
     background-size: cover;
+    background-position: top;
     min-height: 150px;
     width: auto;
     box-shadow: 0 0 7px black;
@@ -156,6 +157,7 @@ footer {
     border: 3px solid var(--quaternary-color);
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
     color: var(--quaternary-color);
     background: var(--primary-color);
     margin: auto 0 13px 0;
@@ -175,32 +177,31 @@ footer {
     opacity: 1;
 }
 
+.party-assist {
+    background-image: url("../assets/images/PartyAssistScreenCapture.png");
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.weather-dashboard {
+    background-image: url("../assets/images/weatherscreenshot.png");
+}
+
+.coding-quiz {
+    background-image: url("../assets/images/Coding-Quiz-Intro.png");
+}
+
+.work-day-scheduler {
+    background-image: url("../assets/images/work-day-scheduler.png");
+}
+
+.password-generator {
+    background-image: url("../assets/images/PasswordGeneratorScreenCapture.png");
+}
+
 .horiseon {
     background-image: url("../assets/images/HoriseonMarketingScreenshot.png");
-    grid-column: span 2;
-    grid-row: span 2;    
 }
-
-.run-buddy {
-    background-image: url("../assets/images/RunBuddyScreenshot.png");
-}
-
-.box3 {
-    background-image: url("https://picsum.photos/id/1026/800");
-}
-
-.box4 {
-    background-image: url("https://picsum.photos/id/1048/800");
-}
-
-.box5 {
-    background-image: url("https://picsum.photos/id/1060/800");
-}
-
-.box6 {
-    background-image: url("https://picsum.photos/id/145/800");
-}
-    /* placeholder images provided by Lorem Picsum */
 /* "My Work" styles end */
 
 /* "Contact Me" styles start */
@@ -217,7 +218,7 @@ footer {
 .contact p {
     width: 35%;
     line-height: 1.5;
-    text-align: right;
+    text-align: center;
     margin-right: 10%;
 }
 
@@ -246,7 +247,7 @@ footer {
 
     header h1 {
         width: 100%;
-        text-align: left;
+        text-align: center;
     }
 
     header nav ul {
@@ -292,7 +293,17 @@ footer {
 
     .grid-container {
         width: 95%;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    .repo a {
+        padding: 3px 5px;
+        font-size: 16px;
+    }
+
+    .party-assist {
+        grid-column: span 1;
+        grid-row: span 1;
     }
 
     .contact {
@@ -302,8 +313,8 @@ footer {
 
     .contact p {
         width: 100%;
-        margin: 20px auto 35px auto;
-        text-align: center;
+        margin: 20px 10% 35px 10%;
+        text-align: left;
     }
 
     .contact ul {
