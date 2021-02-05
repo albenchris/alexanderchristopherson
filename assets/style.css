@@ -119,13 +119,15 @@ footer {
 
 .bio-text {
     width: 35%;
-    color: var(--secondary-color);
-}
-
-.bio-text p {
     font-size: 18px;
     font-weight: 600;
     line-height: 1.5;
+    color: var(--secondary-color);
+}
+
+.bio-text a {
+    text-decoration: none;
+    color: var(--quaternary-color);    
 }
 /* "About Me" styles end */
 
