@@ -5,7 +5,7 @@ Created to showcase my past work for prospective employers and clients
 
 ### Screenshot
 
-![Image of repository](./assets/images/PortfolioScreenCapture.png)
+![Image of repository](./assets/images/portfolio-screencapture.png)
 
 ### Link
 
