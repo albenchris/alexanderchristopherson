@@ -66,10 +66,10 @@ header nav ul li a {
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    background-image: url("https://picsum.photos/id/1042/600"); /* placeholder images provided by Lorem Picsum */
+    /* background-image: url(""); */
     background-size: cover;
     background-position: center;
-    height: 600px;
+    /* height: 600px; */
 }
 /* hero styles end */
 
@@ -194,6 +194,10 @@ footer {
 
 }
 
+.my-tech-blog {
+    background-image: url("../assets/images/my-tech-blog.png")
+}
+
 .weather-dashboard {
     background-image: url("../assets/images/weatherscreenshot.png");
 }
@@ -212,6 +216,10 @@ footer {
 
 .team-profile-generator {
     background-image: url("../assets/images/team-profile-generator.png");
+}
+
+.e-commerce-back-end {
+    background-image: url("../assets/images/e-commerce-back-end.png")
 }
 /* "My Work" styles end */
 
