@@ -299,6 +299,10 @@ footer {
     .grid-container {
         width: 90%;
     }
+
+    .repo {
+        grid-row: span 1
+    }
 }
 
 @media screen and (max-width: 680px) /*540px*/ {
